@@ -7,47 +7,45 @@ function EasyGameDisplay () {
     return (
 
         <div className="App">
-        <Row>
-            <Col sm={4}>        
+          <Row>
+            <Col>
+              <Container>
+                <Row>
+                  <Col >
+                    <div className="container-div image-bg border-radius"></div>
+                  </Col>
+                  <Col>
+                    <div className="container-div image-bg border-radius"></div>
+                  </Col>
+                  <Col> 
+                    <div className="container-div image-bg border-radius"></div>
+                  </Col>
+                </Row>
+                <Row>
+                  <Col >
+                    <div className="container-div image-bg border-radius"></div>
+                  </Col>
+                  <Col>
+                    <div className="container-div image-bg border-radius"></div>
+                  </Col>
+                  <Col> 
+                    <div className="container-div image-bg border-radius"></div>
+                  </Col>
+                </Row>
+                <Row>
+                  <Col >
+                    <div className="container-div image-bg border-radius"></div>
+                  </Col>
+                  <Col>
+                    <div className="container-div image-bg border-radius"></div>
+                  </Col>
+                  <Col> 
+                    <div className="container-div image-bg border-radius"></div>
+                  </Col>
+                </Row>
+              </Container>
             </Col>
-            <Col sm={8}>
-                <Container>
-                    <Row>
-                        <Col>
-                        <p>card</p>
-                        </Col>
-                        <Col>
-                        <p>card</p>
-                        </Col>
-                        <Col>
-                        <p>card</p>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col>
-                        <p>card</p>
-                        </Col>
-                        <Col>
-                        <p>card</p>
-                        </Col>
-                        <Col>
-                        <p>card</p>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col>
-                        <p>card</p>
-                        </Col>
-                        <Col>
-                        <p>card</p>
-                        </Col>
-                        <Col>
-                        <p>card</p>
-                        </Col>
-                    </Row>
-                </Container>
-            </Col>
-        </Row>
+          </Row>
         </div>
 
     )

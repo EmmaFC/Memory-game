@@ -38,30 +38,21 @@
 }
 
 body {
-  background-image: url(./images/bg.jpg);
+  background-color: #f1f0ea;
+  background-image: url(./images/bg-img.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 50%;
+  background-size: cover;
+  font-family: 'PT Sans Narrow', sans-serif !important;
+  font-size: 1.3em;
 }
 
 .image-bg {
-  background-image: url(./images/back-01.jpg);
+  background-image: url(./images/back-card.jpg);
   background-repeat: no-repeat;
   background-position: center; 
   background-size: cover;
   width: 80px;
-}
-
-.rounded-circle{
-  width: 180px !important;
-  height: 180px !important;
-  border-top-right-radius:0 !important;
-  border-top-left-radius:0 !important;
-  border-bottom-left-radius:0 !important;
-  border-bottom-right-radius:100% !important;
-  overflow: hidden !important;
-  top:0 !important;
-  z-index:10 !important;
 }
 
 .center_items {
@@ -85,6 +76,43 @@ body {
   overflow: hidden;
 }
 
-.game-select:hover {
-  transform: translate (1,50);
+
+.text-decoration-none {
+  text-decoration: none !important;
+}
+
+.quarter-circle{
+  border-top-right-radius:0 !important;
+  border-top-left-radius:0 !important;
+  border-bottom-left-radius:0 !important;
+  border-bottom-right-radius:100% !important;
+  overflow: hidden !important;
+}
+
+.frontal-shape-size{
+  width: 180px !important;
+  height: 180px !important;
+  top:0 !important;
+  z-index:10 !important;
+}
+
+.back-shape-size{
+  width: 200px !important;
+  height: 200px !important;
+  top:0 !important;
+  background:#212529;
+  z-index:1 !important;
+}
+
+.shape-color {
+  background-color:#e7727d;
+}
+
+.border-radius{
+  border-radius:10px !important;
+}
+
+.special-font {  
+  font-family: 'Bad Script', serifsans-serif !important;
+  font-size: 1.3em;
 }

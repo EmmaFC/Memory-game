@@ -13,14 +13,15 @@ function Header () {
             <Row>
 
               <Navbar bg="dark" variant="dark" expand="lg" >
-                <Col sm={1}> 
-                  <img src="https://picsum.photos/seed/picsum/200/300" className="absolute rounded-circle img-responsive" alt="Images"></img>      
+                <Col sm={2}> 
+                  <div className="absolute quarter-circle back-shape-size"></div>
+                  <img src="https://picsum.photos/seed/picsum/200/300" className="absolute quarter-circle frontal-shape-size img-responsive" alt="Images"></img>      
                 </Col>
                 <Col>  
                 <Container>
                   <Navbar.Toggle aria-controls="basic-navbar-nav" />
                   <Navbar.Collapse id="basic-navbar-nav">
-                    <Navbar.Brand href="/user">User Name</Navbar.Brand>
+                    <Navbar.Brand className="special-font" href="/user">User Name</Navbar.Brand>
                     <Nav className="me-auto">
                     <Nav.Link href="/">Home</Nav.Link>
                     <Nav.Link href="/profile">Profile</Nav.Link>
@@ -39,7 +40,7 @@ function Header () {
             <Row>
 
               <Navbar bg="light" expand="lg">
-              <Col sm={1}> 
+              <Col sm={2}> 
                 </Col>
                 <Col>  
                 <Container>
