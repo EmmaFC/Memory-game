@@ -9,7 +9,7 @@ function App() {
 
     <div className="App">
       <Header />
-        <body  className="center_items">
+        <body className="center_items h-70">
           <Router />
         </body>
       <Footer/>

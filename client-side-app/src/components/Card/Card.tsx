@@ -4,7 +4,7 @@ import React, {Component} from 'react';
 
 class CardItem extends Component {
 
-  
+
   render (){
     return (
       <div className="App">
@@ -17,7 +17,7 @@ class CardItem extends Component {
                 src="https://picsum.photos/seed/picsum/200/300"
             />
             </Figure>
-        </Button>{' '}
+        </Button>
       </div>
     );
   }

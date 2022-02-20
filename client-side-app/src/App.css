@@ -45,10 +45,11 @@ body {
 }
 
 .image-bg {
-  background-image: url(./images/bg.jpg);
+  background-image: url(./images/back-01.jpg);
   background-repeat: no-repeat;
   background-position: center; 
   background-size: cover;
+  width: 80px;
 }
 
 .rounded-circle{
@@ -71,4 +72,19 @@ body {
 
 .absolute {
   position:absolute;
+}
+
+.h-70 {
+  min-height: 70vh !important;
+}
+
+
+.container-div {
+  min-width: 220px;
+  min-height: 280px;
+  overflow: hidden;
+}
+
+.game-select:hover {
+  transform: translate (1,50);
 }
