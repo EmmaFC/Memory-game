@@ -1,7 +1,11 @@
 import {Figure} from 'react-bootstrap';
 import {Button} from 'react-bootstrap';
+import React, {Component} from 'react';
 
-function Card_item () {
+class CardItem extends Component {
+
+  
+  render (){
     return (
       <div className="App">
         <Button variant="outline-secondary">
@@ -17,6 +21,6 @@ function Card_item () {
       </div>
     );
   }
-  
-  export default Card_item;
+}
+  export default CardItem;
   
